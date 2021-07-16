@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+
+  /* overflow-x: hidden; */
+}
+
+/* <!--navbar css starts ---> */
+.my-nav {
+  top: 0 !important;
+  position: fixed;
+
+  z-index: 999;
+  left: 0 !important;
+}
+.img-logo {
+  margin-left: 80px;
+}
+
+.navbar-nav {
+  font-size: large;
+  margin-left: 180px;
+}
+
+.my-carousel {
+  top: 0;
+  width: 100vw;
+  height: 300;
+}
+.slideshow {
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.slider {
+  background: url(../images/pattern.png) repeat rgba(0, 0, 0, 0.4);
+
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+.slideroverlay {
+  background: rgba(0, 0, 0, 0.4) url(./images/pattern.png) repeat;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+/* <-----navbar css ends-------> */
+
+/* <-----about-part css starts-------> */
+.about-part {
+  width: 100%;
+  height: auto;
+  margin: 80px auto;
+}
+.container-2 {
+  margin: 75px 60px;
+  padding-left: 55px;
+}
+
+.container-2 h5 {
+  font-weight: bold;
+  font-size: medium;
+}
+.container-2 p {
+  width: 270px;
+  color: gray;
+}
+
+/* <-----about-part css ends-------> */
+
+/* <-----facts css starts-------> */
+
+#facts {
+  background: url(./images/parallax/facts.jpg);
+  padding: 100px 0px 100px;
+  /* height: 100vh; */
+}
+.parallax {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+.section {
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.4) url(../images/pattern.png) repeat;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.column {
+  color: white;
+  opacity: 1.4;
+  margin-left: 150px !important;
+  text-align: center;
+  z-index: 100;
+}
+
+/* <-----facts css ends-------> */
+/* <-----support css starts-------> */
+.support {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 80px;
+}
+.small-div {
+  text-align: center;
+  text-transform: uppercase;
+  border: solid thin grey;
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+.updated {
+  margin: 60px;
+}
+.table1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.table1 h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+.table1 .col-2 {
+  height: 40px;
+  width: 40px;
+  background-color: #7ec13f;
+  text-align: center;
+  justify-content: center;
+  padding: 8px;
+  border: solid #7ec13f;
+  color: aliceblue;
+}
+.table1 .col-8 {
+  margin-left: 40px;
+}
+
+/* <-----facts css ends-------> */
+/* <-----history css starts-------> */
+#history {
+  background: url(./images/parallax/timeline.jpg);
+  height: 176vh;
+  margin-top: 635px;
+}
+/* .title h2::before{
+	content: '';
+	width: 10px;
+	top: 30px;
+	background-color: white;
+	position: absolute;
+	height: calc(100% - 560px);
+	display: flex;
+} */
+.title {
+  color: white;
+  z-index: 1;
+  opacity: 0.9;
+  text-align: center;
+  /* margin-top: 17px; */
+  padding-top: 90px;
+}
+.year {
+  border: solid thick gainsboro;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  margin-left: 562px;
+  margin-top: 80px;
+  background: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.year1 {
+	border: solid thick gainsboro;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+  
+	border-radius: 50%;
+  
+	margin-left: 562px;
+	margin-top: 2px;
+	background: white;
+	text-align: center;
+	padding-top: 20px;
+  }
+  .year2 {
+	border: solid thick gainsboro;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+  
+	border-radius: 50%;
+  
+	margin-left: 562px;
+	margin-top: 20px;
+	background: white;
+	text-align: center;
+	padding-top: 20px;
+  }
+
+/* .timeline span::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  margin-left: 505px;
+} */
+.timeline span::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  margin-left: 422px;
+  border-radius: 50%;
+}
+
+.span1::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  margin-left: -159px;
+  margin-top: -20px;
+  border-radius: 50%;
+}
+.timeline-item1 {
+  color: white;
+  z-index: 100;
+  opacity: 0.9;
+  width: 500px;
+  font-size: 14px;
+  background: black;
+  margin-bottom: 198px;
+  padding: 20px 40px 20px 20px;
+  margin-top: 2px;
+  margin-left: 645px;
+}
+.timeline-item2 {
+  color: white;
+  z-index: 100;
+  opacity: 0.9;
+  width: 500px;
+  font-size: 14px;
+  background: black;
+  margin-top: -300px;
+  padding: 20px 40px 20px 20px;
+  margin-left: 65px;
+}
+.timeline-item3 {
+  color: white;
+  z-index: 100;
+  opacity: 0.9;
+  width: 500px;
+  font-size: 14px;
+  background: black;
+  margin-top: 5px;
+  margin-left: 65px;
+  padding: 20px 40px 20px 20px;
+}
+.timeline-item4 {
+  color: white;
+  z-index: 100;
+  opacity: 0.9;
+  width: 500px;
+  font-size: 14px;
+  background: black;
+  margin-top: -125px;
+  margin-left: 645px;
+  padding: 20px 40px 20px 20px;
+}
+.timeline-item5 {
+  color: white;
+  z-index: 100;
+  opacity: 0.9;
+  width: 500px;
+  font-size: 14px;
+  background: black;
+  margin-top: 10px;
+  margin-left: 65px;
+  padding: 20px 40px 20px 20px;
+}
+
+.vertical ul::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: calc(100% - 454px);
+  background: white;
+  top: 303px;
+  left: 40px;
+  margin-left: 590px;
+}
+
+/* <-----history css ends-------> */

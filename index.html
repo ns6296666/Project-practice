@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<!-- ---------------------------header-part starts---------------------------- -->
+		<section class="header">
+			<nav class="my-nav navbar navbar-expand-lg navbar-dark bg-dark w-100">
+				<div class="container text-uppercase p-2">
+					<img src="./images/logo.png" class="img-logo" />
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav mr-auto" style="margin-left:69px;">
+							<li class="nav-item active">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">about</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">history</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">ourwork</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">team</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">testimonials</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="slideroverlay"></div>
+			<div
+				id="carouselExampleIndicators"
+				class="my-carousel carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="./images/slider/1.jpg"
+							class="slideshow d-block w-100"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>
+								Some representative placeholder content for the first slide.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./images/slider/2.jpg"
+							class="slideshow d-block w-100"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>
+								Some representative placeholder content for the first slide.
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./images/slider/3.jpg"
+							class="slideshow d-block w-100"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>
+								Some representative placeholder content for the first slide.
+							</p>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<!-- ---------------------------header-part ends---------------------------- -->
+
+		<!-- ---------------------------about-part starts---------------------------- -->
+		<section class="about-part">
+			<div class="container-2">
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-leaf"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>CLEAN & MODERN DESIGN</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-paper-plane-o"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>ILLUSTRATION</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-life-ring"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>APP DEVELOPMENT</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-2">
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-paint-brush"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>WEB DEVELOPMENT</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-line-chart"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>DIGITAL DESIGN</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col-2">
+								<i
+									class="fa-3x fa fa-gift"
+									style="color: #7EC13F;"
+									aria-hidden="true"
+								></i>
+							</div>
+							<div class="col-10">
+								<h5>FULLY RESPONSIVE</h5>
+								<p>
+									Lorem ipsum dolor consectetur adipisicing incididunt eiusmod
+									tempor incididunt laboredolore magna aliqua.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ---------------------------about-part ends---------------------------- -->
+
+		<!-- ---------------------------facts-part start---------------------------- -->
+		<section
+			id="facts"
+			class="section parallax"
+			style="background-position: 50% 13px"
+		>
+			<div class="overlay"></div>
+			<div class="container active">
+				<div class="row">
+					<div class="column col">
+						<div class="num">
+							<span>
+								<i class="fa fa-3x fa-smile-o" aria-hidden="true"></i>
+							</span>
+							<h1>841</h1>
+							<p>HAPPY CLIENTS</p>
+						</div>
+					</div>
+					<div class="column col">
+						<div class="num">
+							<span>
+								<i class="fa fa-3x fa-bar-chart" aria-hidden="true"></i>
+							</span>
+							<h1>800</h1>
+							<p>PROJECTS</p>
+						</div>
+					</div>
+					<div class="column col">
+						<div class="num">
+							<span>
+								<i class="fa fa-3x fa-bullseye" aria-hidden="true"></i>
+							</span>
+							<h1>1232</h1>
+							<p>LINES OF CODE</p>
+						</div>
+					</div>
+					<div class="column col">
+						<div class="num">
+							<span>
+								<i class="fa fa-3x fa-trophy" aria-hidden="true"></i
+							></span>
+							<h1>300</h1>
+							<p>AWARDS WON</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ---------------------------facts-part ends---------------------------- -->
+
+		<!-- ---------------------------Responsive part starts------------------------>
+		<section id="responsive" class="support">
+			<div class="responsive">
+				<div class="container">
+					<div class="row row-cols-auto" style="justify-content: center">
+						<div class="col small-div">
+							<span
+								><i class="fa fa-2x fa-television" aria-hidden="true"></i
+							></span>
+							<h4>RESPONSIVE</h4>
+						</div>
+						<div class="col small-div">
+							<i class="fa fa-2x fa-cubes" aria-hidden="true"></i>
+							<h4>flexible</h4>
+						</div>
+						<div class="col small-div">
+							<span
+								><i class="fa fa-2x fa-university" aria-hidden="true"></i
+							></span>
+							<h4>support</h4>
+						</div>
+						<div class="col small-div">
+							<span
+								><i class="fa fa-2x fa-pagelines" aria-hidden="true"></i
+							></span>
+							<h4>clean design</h4>
+						</div>
+						<div class="col small-div">
+							<i class="fa fa-2x fa-pie-chart" aria-hidden="true"></i>
+							<h4>easy to use</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="updated my-60px">
+				<div class="container ">
+					<div class="row ">
+						<div class="col-lg-6">
+							<div class="table1">
+							 <div class="col-2">
+								<i class="fa  fa-star-o" aria-hidden="true"></i>
+							</div>
+							<div class="col-8">
+								<h4>DEDICATED SUPPORT & UPDATES</h4>
+								<p style="width: 484px;     color: grey;
+								font-size: 14px;" >
+									Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
+									sit amet. Et netus et malesuada fames ac turpis egestas
+									tristique senectus.
+								</p>
+							</div>
+						</div>
+						
+						
+
+						
+							<div class="table1">
+								<div class="col-2">
+									<i class="fa  fa-codepen" aria-hidden="true"></i>
+								</div>
+								<div class="col-8">
+									<h4>MULTIPURPOSE THEME</h4>
+									<p style="width: 484px;    color: grey;
+									font-size: 14px;">
+										Vestibulum tortor quam, feugiat vitae, ultricies eget,
+										tempor sit amet. Et netus et malesuada fames ac turpis
+										egestas tristique senectus.
+									</p>
+								</div>
+							</div>
+							
+
+							
+								<div class="table1">
+									<div class="col-2">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+									</div>
+									<div class="col-8">
+										<h4>DESIGN WITH LOVE</h3>
+										<p style="width: 484px;    color: grey;
+										font-size: 14px;">
+											Vestibulum tortor quam, feugiat vitae, ultricies eget,
+											tempor sit amet. Et netus et malesuada fames ac turpis
+											egestas tristique senectus.
+										</p>
+									</div>
+								</div>
+							
+							
+						</div>
+						<div class="col-lg-6 mr-10px">
+							<div id="carouselExampleControls" class="carousel slide " style="margin-left: 48px;" data-bs-ride="carousel">
+								<div class="carousel-inner">
+								  <div class="carousel-item active">
+									<img src="./images/works/img4.jpg" class="d-block w-100" alt="...">
+								  </div>
+								  <div class="carousel-item">
+									<img src="./images/works/img5.jpg" class="d-block w-100" alt="...">
+								  </div>
+								  <div class="carousel-item">
+									<img src="./images/works/img6.jpg" class="d-block w-100" alt="...">
+								  </div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Next</span>
+								</button>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ---------------------------Responsive part ends------------------------>
+		
+		<!-- ---------------------------History part start------------------------>
+<section class=" section parallax" id="history"> 
+	<div class="overlay"></div>
+	<div class="title">
+		<h2 style="font-size: 29px;
+		font-weight: 700;">HISTORY</h2>
+		<hr style='width: 45px;
+		height: 2px;
+		color: white;
+		z-index: 1;
+		opacity: 1;
+		text-align: center;
+		margin-left: 605px;' >
+	</div>
+	<div class="vertical">
+		<ul class="timeline  ">
+			<li class="year ">
+			2014	
+			</li>
+			
+			<li class="timeline-item1">
+				<h4 style="font-weight: bold; font-size: 16px;">LOREM IPSUM DOLOR CONSECTETUR ADIPISICING.</h4>
+				<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore magna aliqua.</p>
+				<!-- <span style="margin-right: 100px;">16 OCT 2014</span> -->
+				<p class="span1">16 OCT 2014</p>
+			</li>
+			<li class="timeline-item2" >
+				<h4 style="font-weight: bold; font-size: 16px;">LOREM IPSUM DOLOR CONSECTETUR ADIPISICING.</h4>
+				<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore magna aliqua.</p>
+				<span>18 OCT 2014</span>
+			</li>
+			<li class="year1" 	>
+				2015
+			</li>
+			<li class="timeline-item3" >
+				<h4 style="font-weight: bold; font-size: 16px;">LOREM IPSUM DOLOR CONSECTETUR ADIPISICING.</h4>
+				<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore magna aliqua.</p>
+				<span>11 OCT 2014</span>
+			</li>
+			<li class="timeline-item4" >
+				<h4 style="font-weight: bold; font-size: 16px;">LOREM IPSUM DOLOR CONSECTETUR ADIPISICING.</h4>
+				<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore magna aliqua.</p>
+				<!-- <span style="margin-right: 100px;">10 OCT 2015</span> -->
+				<p class="span1">10 OCT 2015</p>
+			</li>
+			<li class="timeline-item5" >
+				<h4 style="font-weight: bold; font-size: 16px;">LOREM IPSUM DOLOR CONSECTETUR ADIPISICING.</h4>
+				<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore magna aliqua.</p>
+				<span>18 OCT 2015</span>
+			</li>
+			<li class="year2" 	>
+				2015
+			</li>
+		</ul>
+	</div>
+</section>
+
+		<!-- ---------------------------History part ends------------------------>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
